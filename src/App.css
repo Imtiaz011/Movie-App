@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* background-color:black; */
+}
+h1{
+  color: black;
+  font-style: italic;
+  margin:10px;
+}
+.App {
+  height: 100%;
+  width:100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.movieContainer{
+  background-color:black;
+}
+table {
+  border: 1px solid black;
+  color: black
+}
+th,
+td {
+  border: 1px solid white;
+  color: white;
+}
+img:hover {
+  height: 510px;
+  width: 320px;
+  cursor: pointer;
+}
+
+#imghide{
+  border: 1px solid transparent;
+}
